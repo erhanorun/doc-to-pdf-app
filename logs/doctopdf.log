@@ -1,0 +1,30 @@
+2023-05-01 14:12:31.127  INFO [org.springframework.boot.StartupInfoLogger] : Starting DocToPdfAppApplication using Java 17.0.2 on DESKTOP-1AMEAJS with PID 5100 (C:\Users\erhan\IdeaProjects\doc-to-pdf-app\target\classes started by erhan in C:\Users\erhan\IdeaProjects\doc-to-pdf-app)
+2023-05-01 14:12:31.137  INFO [org.springframework.boot.SpringApplication] : No active profile set, falling back to 1 default profile: "default"
+2023-05-01 14:12:32.270  INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] : Tomcat initialized with port(s): 8010 (http)
+2023-05-01 14:12:32.286  INFO [org.apache.juli.logging.DirectJDKLog] : Initializing ProtocolHandler ["http-nio-8010"]
+2023-05-01 14:12:32.286  INFO [org.apache.juli.logging.DirectJDKLog] : Starting service [Tomcat]
+2023-05-01 14:12:32.287  INFO [org.apache.juli.logging.DirectJDKLog] : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-01 14:12:32.378  INFO [org.apache.juli.logging.DirectJDKLog] : Initializing Spring embedded WebApplicationContext
+2023-05-01 14:12:32.378  INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] : Root WebApplicationContext: initialization completed in 1180 ms
+2023-05-01 14:12:32.717  INFO [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] : Adding welcome page: class path resource [static/index.html]
+2023-05-01 14:12:32.842  INFO [org.apache.juli.logging.DirectJDKLog] : Starting ProtocolHandler ["http-nio-8010"]
+2023-05-01 14:12:32.866  INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] : Tomcat started on port(s): 8010 (http) with context path '/doctopdf'
+2023-05-01 14:12:32.875  INFO [org.springframework.boot.StartupInfoLogger] : Started DocToPdfAppApplication in 2.136 seconds (JVM running for 2.979)
+2023-05-01 14:13:02.509  INFO [org.apache.juli.logging.DirectJDKLog] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-01 14:13:02.509  INFO [org.springframework.web.servlet.FrameworkServlet] : Initializing Servlet 'dispatcherServlet'
+2023-05-01 14:13:02.510  INFO [org.springframework.web.servlet.FrameworkServlet] : Completed initialization in 1 ms
+2023-05-01 14:15:34.421  INFO [org.springframework.boot.StartupInfoLogger] : Starting DocToPdfAppApplication using Java 17.0.2 on DESKTOP-1AMEAJS with PID 8320 (C:\Users\erhan\IdeaProjects\doc-to-pdf-app\target\classes started by erhan in C:\Users\erhan\IdeaProjects\doc-to-pdf-app)
+2023-05-01 14:15:34.434  INFO [org.springframework.boot.SpringApplication] : No active profile set, falling back to 1 default profile: "default"
+2023-05-01 14:15:35.763  INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] : Tomcat initialized with port(s): 8010 (http)
+2023-05-01 14:15:35.781  INFO [org.apache.juli.logging.DirectJDKLog] : Initializing ProtocolHandler ["http-nio-8010"]
+2023-05-01 14:15:35.782  INFO [org.apache.juli.logging.DirectJDKLog] : Starting service [Tomcat]
+2023-05-01 14:15:35.782  INFO [org.apache.juli.logging.DirectJDKLog] : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-01 14:15:35.886  INFO [org.apache.juli.logging.DirectJDKLog] : Initializing Spring embedded WebApplicationContext
+2023-05-01 14:15:35.886  INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] : Root WebApplicationContext: initialization completed in 1382 ms
+2023-05-01 14:15:36.233  INFO [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] : Adding welcome page: class path resource [static/index.html]
+2023-05-01 14:15:36.353  INFO [org.apache.juli.logging.DirectJDKLog] : Starting ProtocolHandler ["http-nio-8010"]
+2023-05-01 14:15:36.375  INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] : Tomcat started on port(s): 8010 (http) with context path '/doctopdf'
+2023-05-01 14:15:36.385  INFO [org.springframework.boot.StartupInfoLogger] : Started DocToPdfAppApplication in 2.465 seconds (JVM running for 3.408)
+2023-05-01 14:15:41.582  INFO [org.apache.juli.logging.DirectJDKLog] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-01 14:15:41.583  INFO [org.springframework.web.servlet.FrameworkServlet] : Initializing Servlet 'dispatcherServlet'
+2023-05-01 14:15:41.584  INFO [org.springframework.web.servlet.FrameworkServlet] : Completed initialization in 1 ms
