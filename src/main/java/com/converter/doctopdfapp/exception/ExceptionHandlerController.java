@@ -21,7 +21,7 @@ public class ExceptionHandlerController {
     @ExceptionHandler(value = {SizeLimitExceededException.class, MaxUploadSizeExceededException.class})
     protected Error handleSizeLimit(RuntimeException ex, WebRequest request) {
         log.error(ex.getMessage(), ex);
-        return new Error("Plik ma zbyt duży rozmiar. Plik może mieć maksymalnie " + maxFileSize);
+        return new Error("The file size is too large. The file can have max. " + maxFileSize);
     }
 
     @ResponseStatus(HttpStatus.BAD_REQUEST)
@@ -35,6 +35,6 @@ public class ExceptionHandlerController {
     @ExceptionHandler(value = RuntimeException.class)
     protected Error handleRuntimeException(RuntimeException ex) {
         log.error(ex.getMessage(), ex);
-        return new Error("Wystąpił błąd. Skontaktuj się z administratorem");
+        return new Error("An error occured. Please contact your administrator.");
     }
 }

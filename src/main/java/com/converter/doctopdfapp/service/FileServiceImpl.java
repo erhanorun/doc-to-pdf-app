@@ -36,7 +36,7 @@ public class FileServiceImpl implements FileService {
         try {
             return Files.readAllBytes(file.toPath());
         } catch (NoSuchFileException ex) {
-            throw new BusinessException("Brak pliku");
+            throw new BusinessException("No file");
         }
     }
 

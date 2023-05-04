@@ -29,7 +29,7 @@ function createFormData(file) {
 
 function validateSelectedFile(file) {
     if(!file) {
-        const message = "Nie wybrano pliku!";
+        const message = "No file selected!";
         alert(message);
         throw Error(message);
     }
@@ -60,7 +60,7 @@ function _download() {
 
 function validateFileName() {
     if(!convertedFile.name) {
-        alert("Wystąpił błąd!");
+        alert("An error occured!");
         throw Error();
     }
 }
