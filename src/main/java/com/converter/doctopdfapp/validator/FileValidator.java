@@ -14,9 +14,9 @@ public class FileValidator {
         String extension = FileUtils.getExtension(file);
         String extensionByContent = FileUtils.detectExtensionByContent(file);
 
-        if (FILE_EXTENSION_ALLOWED.stream().noneMatch(extension::equals) ||
+        if(FILE_EXTENSION_ALLOWED.stream().noneMatch(extension::equals) ||
                 FILE_EXTENSION_ALLOWED.stream().noneMatch(extensionByContent::equals)) {
-            throw new BusinessException("Nieprawidłowe rozszerzenie pliku");
+            throw new BusinessException("Invalid file extension");
         }
     }
 }
