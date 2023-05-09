@@ -223,3 +223,18 @@ Caused by: java.lang.RuntimeException: Failed to load driver class com.mysql.cj.
 2023-05-09 11:27:00.109  INFO [org.apache.juli.logging.DirectJDKLog] : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2023-05-09 11:27:00.109  INFO [org.springframework.web.servlet.FrameworkServlet] : Initializing Servlet 'dispatcherServlet'
 2023-05-09 11:27:00.110  INFO [org.springframework.web.servlet.FrameworkServlet] : Completed initialization in 1 ms
+2023-05-09 11:34:26.167  INFO [org.springframework.boot.StartupInfoLogger] : Starting DocToPdfAppApplication using Java 17.0.2 on DESKTOP-1AMEAJS with PID 3960 (C:\Users\erhan\IdeaProjects\doc-to-pdf-app\target\classes started by erhan in C:\Users\erhan\IdeaProjects\doc-to-pdf-app)
+2023-05-09 11:34:26.180  INFO [org.springframework.boot.SpringApplication] : No active profile set, falling back to 1 default profile: "default"
+2023-05-09 11:34:27.210  INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] : Tomcat initialized with port(s): 8010 (http)
+2023-05-09 11:34:27.241  INFO [org.apache.juli.logging.DirectJDKLog] : Initializing ProtocolHandler ["http-nio-8010"]
+2023-05-09 11:34:27.242  INFO [org.apache.juli.logging.DirectJDKLog] : Starting service [Tomcat]
+2023-05-09 11:34:27.243  INFO [org.apache.juli.logging.DirectJDKLog] : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-09 11:34:27.345  INFO [org.apache.juli.logging.DirectJDKLog] : Initializing Spring embedded WebApplicationContext
+2023-05-09 11:34:27.346  INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] : Root WebApplicationContext: initialization completed in 1109 ms
+2023-05-09 11:34:27.669  INFO [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] : Adding welcome page: class path resource [static/index.html]
+2023-05-09 11:34:27.839  INFO [org.apache.juli.logging.DirectJDKLog] : Starting ProtocolHandler ["http-nio-8010"]
+2023-05-09 11:34:27.860  INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] : Tomcat started on port(s): 8010 (http) with context path '/doctopdf'
+2023-05-09 11:34:27.870  INFO [org.springframework.boot.StartupInfoLogger] : Started DocToPdfAppApplication in 2.082 seconds (JVM running for 2.909)
+2023-05-09 11:34:31.625  INFO [org.apache.juli.logging.DirectJDKLog] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-09 11:34:31.625  INFO [org.springframework.web.servlet.FrameworkServlet] : Initializing Servlet 'dispatcherServlet'
+2023-05-09 11:34:31.627  INFO [org.springframework.web.servlet.FrameworkServlet] : Completed initialization in 0 ms
